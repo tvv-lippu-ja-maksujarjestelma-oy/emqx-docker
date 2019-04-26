@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lmj01/emqx-docker.svg?branch=master)]
+
 # EMQ X Docker
 
 TODO: ...
