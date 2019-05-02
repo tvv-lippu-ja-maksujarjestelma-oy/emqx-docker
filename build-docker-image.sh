@@ -3,7 +3,7 @@ ORG=${ORG:-lmj01}
 DOCKER_IMAGE=emqx-docker
 
 DOCKER_TAG="ci-${TRAVIS_COMMIT}"
-# Set these environment variables
+# Set these environment variables in travis settings
 #DOCKER_USER=
 #DOCKER_AUTH=
 
