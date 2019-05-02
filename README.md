@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/lmj01/emqx-docker.svg?branch=master)]
+[![Build Status](https://travis-ci.org/lmj01/emqx-docker.svg?branch=emqx30)]
 
 # EMQ X Docker
 

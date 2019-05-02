@@ -21,9 +21,9 @@ if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
     docker pull $ORG/$DOCKER_IMAGE:$DOCKER_TAG
     tagandpush "prod"
   else
-    if [ "$TRAVIS_BRANCH" = "master" ]; then
-      echo "processing master build $TRAVIS_COMMIT"
-      #master branch, build and tag as latest
+    if [ "$TRAVIS_BRANCH" = "emqx30" ]; then
+      echo "processing emqx30 build $TRAVIS_COMMIT"
+      #emqx30 branch, build and tag as latest
       docker build --tag="$ORG/$DOCKER_IMAGE:$DOCKER_TAG" .
       docker push $ORG/$DOCKER_IMAGE:$DOCKER_TAG
       tagandpush "latest"
